@@ -1,0 +1,30 @@
+ 69  git status
+   70  git init
+   71  touch index.html
+   72  git add .
+   73  git add .
+   74  git commit -m "first commit"
+   75  git add .
+   76  git commit -m "2nd commit"
+   77  git log --oneline
+   78  git branch n1
+   79  git branch
+   80  git checkout n1
+   81  git add .
+   82  git commit -m "3nd commit"
+   83  git add .
+   84  git commit -m "4th commit"
+   85  git log --oneline
+   86  git checkout master
+   87  git merge --squash n1
+   88  git add .
+   89  git commit -m "5th commit"
+   90  git log --oneline
+   91  git chackout n1
+   92  git checkout n1
+   93  git log --oneline
+   94  git checkout master
+   95  git log --oneline
+   96  git remote add origin git@github.com:devv1310/Git_Squash.git
+   97  git push origin master
+   98  history
